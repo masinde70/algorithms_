@@ -92,6 +92,12 @@
 		<Unit filename="/Users/masinde/CLionProjects/Prepare/AlgoExpert/interval_map.cpp">
 			<Option target="Prepare"/>
 		</Unit>
+		<Unit filename="/Users/masinde/CLionProjects/Prepare/AlgoExpert/stack_using_two_queues.cpp">
+			<Option target="Prepare"/>
+		</Unit>
+		<Unit filename="/Users/masinde/CLionProjects/Prepare/AlgoExpert/stack_using_two_queues.h">
+			<Option target="Prepare"/>
+		</Unit>
 		<Unit filename="/Users/masinde/CLionProjects/Prepare/Shape.cpp">
 			<Option target="Prepare"/>
 		</Unit>

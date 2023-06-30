@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Prepare.dir/AlgoExpert/Binaries.cpp.o"
   "CMakeFiles/Prepare.dir/AlgoExpert/BinaryTree.cpp.o"
   "CMakeFiles/Prepare.dir/AlgoExpert/interval_map.cpp.o"
+  "CMakeFiles/Prepare.dir/AlgoExpert/stack_using_two_queues.cpp.o"
   "CMakeFiles/Prepare.dir/Shape.cpp.o"
   "CMakeFiles/Prepare.dir/Triangle.cpp.o"
   "CMakeFiles/Prepare.dir/main.cpp.o"

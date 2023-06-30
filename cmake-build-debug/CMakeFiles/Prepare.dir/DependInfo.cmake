@@ -11,6 +11,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/masinde/CLionProjects/Prepare/AlgoExpert/Binaries.cpp" "/Users/masinde/CLionProjects/Prepare/cmake-build-debug/CMakeFiles/Prepare.dir/AlgoExpert/Binaries.cpp.o"
   "/Users/masinde/CLionProjects/Prepare/AlgoExpert/BinaryTree.cpp" "/Users/masinde/CLionProjects/Prepare/cmake-build-debug/CMakeFiles/Prepare.dir/AlgoExpert/BinaryTree.cpp.o"
   "/Users/masinde/CLionProjects/Prepare/AlgoExpert/interval_map.cpp" "/Users/masinde/CLionProjects/Prepare/cmake-build-debug/CMakeFiles/Prepare.dir/AlgoExpert/interval_map.cpp.o"
+  "/Users/masinde/CLionProjects/Prepare/AlgoExpert/stack_using_two_queues.cpp" "/Users/masinde/CLionProjects/Prepare/cmake-build-debug/CMakeFiles/Prepare.dir/AlgoExpert/stack_using_two_queues.cpp.o"
   "/Users/masinde/CLionProjects/Prepare/Shape.cpp" "/Users/masinde/CLionProjects/Prepare/cmake-build-debug/CMakeFiles/Prepare.dir/Shape.cpp.o"
   "/Users/masinde/CLionProjects/Prepare/Triangle.cpp" "/Users/masinde/CLionProjects/Prepare/cmake-build-debug/CMakeFiles/Prepare.dir/Triangle.cpp.o"
   "/Users/masinde/CLionProjects/Prepare/main.cpp" "/Users/masinde/CLionProjects/Prepare/cmake-build-debug/CMakeFiles/Prepare.dir/main.cpp.o"

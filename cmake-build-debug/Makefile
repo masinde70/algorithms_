@@ -201,6 +201,30 @@ AlgoExpert/interval_map.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Prepare.dir/build.make CMakeFiles/Prepare.dir/AlgoExpert/interval_map.cpp.s
 .PHONY : AlgoExpert/interval_map.cpp.s
 
+AlgoExpert/stack_using_two_queues.o: AlgoExpert/stack_using_two_queues.cpp.o
+.PHONY : AlgoExpert/stack_using_two_queues.o
+
+# target to build an object file
+AlgoExpert/stack_using_two_queues.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Prepare.dir/build.make CMakeFiles/Prepare.dir/AlgoExpert/stack_using_two_queues.cpp.o
+.PHONY : AlgoExpert/stack_using_two_queues.cpp.o
+
+AlgoExpert/stack_using_two_queues.i: AlgoExpert/stack_using_two_queues.cpp.i
+.PHONY : AlgoExpert/stack_using_two_queues.i
+
+# target to preprocess a source file
+AlgoExpert/stack_using_two_queues.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Prepare.dir/build.make CMakeFiles/Prepare.dir/AlgoExpert/stack_using_two_queues.cpp.i
+.PHONY : AlgoExpert/stack_using_two_queues.cpp.i
+
+AlgoExpert/stack_using_two_queues.s: AlgoExpert/stack_using_two_queues.cpp.s
+.PHONY : AlgoExpert/stack_using_two_queues.s
+
+# target to generate assembly for a file
+AlgoExpert/stack_using_two_queues.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Prepare.dir/build.make CMakeFiles/Prepare.dir/AlgoExpert/stack_using_two_queues.cpp.s
+.PHONY : AlgoExpert/stack_using_two_queues.cpp.s
+
 Shape.o: Shape.cpp.o
 .PHONY : Shape.o
 
@@ -291,6 +315,9 @@ help:
 	@echo "... AlgoExpert/interval_map.o"
 	@echo "... AlgoExpert/interval_map.i"
 	@echo "... AlgoExpert/interval_map.s"
+	@echo "... AlgoExpert/stack_using_two_queues.o"
+	@echo "... AlgoExpert/stack_using_two_queues.i"
+	@echo "... AlgoExpert/stack_using_two_queues.s"
 	@echo "... Shape.o"
 	@echo "... Shape.i"
 	@echo "... Shape.s"

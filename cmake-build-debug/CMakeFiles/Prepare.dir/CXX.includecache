@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/masinde/CLionProjects/Prepare/Shape.h
+
+/Users/masinde/CLionProjects/Prepare/Triangle.cpp
+iostream
+-
+Triangle.h
+/Users/masinde/CLionProjects/Prepare/Triangle.h
+
+/Users/masinde/CLionProjects/Prepare/Triangle.h
+Shape.h
+/Users/masinde/CLionProjects/Prepare/Shape.h
+
+/Users/masinde/CLionProjects/Prepare/main.cpp
+iostream
+-
+fstream
+-
+Shape.h
+/Users/masinde/CLionProjects/Prepare/Shape.h
+Triangle.h
+/Users/masinde/CLionProjects/Prepare/Triangle.h
+

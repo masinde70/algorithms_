@@ -24,3 +24,7 @@ Stack::pop(){
 Stack::top() {
     return q1.back();
 }
+
+Stack::empty(){
+    return q1.empty();
+}

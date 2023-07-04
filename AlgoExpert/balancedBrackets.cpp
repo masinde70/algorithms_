@@ -3,6 +3,8 @@
 //
 #include <unordered_map>
 #include <stack>
+#include <string>
+#include <algorithm>
 #include "balancedBrackets.h"
 
 using  namespace std;
@@ -14,6 +16,12 @@ bool balancedBrackets(string str){
 
     unordered_map<char, char> matchingBrackets{
             {')', '('}, {']', '['}, {'}', '{'}};
+    stack<char> stack;
+    for (char character : str){
+        if (openingBrackets.find(character) != string::npos){
+
+        }
+    }
 
 
 }

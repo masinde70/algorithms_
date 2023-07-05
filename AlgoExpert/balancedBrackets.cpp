@@ -30,6 +30,7 @@ bool balancedBrackets(string str){
                 return false;
             }
         }
+       return stack.size() == 0;
     }
 
 

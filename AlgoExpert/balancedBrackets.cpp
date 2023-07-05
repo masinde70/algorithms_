@@ -19,8 +19,12 @@ bool balancedBrackets(string str){
     stack<char> stack;
     for (char character : str){
         if (openingBrackets.find(character) != string::npos){
-
-
+            stack.push(character);
+        }else if (closingBrackets.find(character) != string::npos){
+            if(stack.size() == 0){
+                return false;
+            }
+            if (stack.top() == matchingBrackets[character])
         }
     }
 

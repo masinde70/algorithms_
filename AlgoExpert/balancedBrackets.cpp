@@ -24,7 +24,11 @@ bool balancedBrackets(string str){
             if(stack.size() == 0){
                 return false;
             }
-            if (stack.top() == matchingBrackets[character])
+            if (stack.top() == matchingBrackets[character]){
+                stack.pop();
+            }else{
+                return false;
+            }
         }
     }
 

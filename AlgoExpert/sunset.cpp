@@ -23,5 +23,11 @@ vector<int> sunsetViews(vector<int> buildings, string direction){
                 buildings[candidateBuildings[candidateBuildings.size() - 1]] <= bulidingHeight){
             candidateBuildings.pop_back();
         }
+        candidateBuildings.push_back(idx);
+        idx += step;
     }
+    if (direction == "WEST"){
+        reverse(candidateBuildings.begin(), candidateBuildings.end());
+    }
+    return candidateBuildings;
 }

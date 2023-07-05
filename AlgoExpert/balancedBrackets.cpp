@@ -20,6 +20,7 @@ bool balancedBrackets(string str){
     for (char character : str){
         if (openingBrackets.find(character) != string::npos){
 
+
         }
     }
 

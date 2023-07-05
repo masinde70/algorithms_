@@ -11,4 +11,13 @@ vector<int> sunsetViews(vector<int> buildings, string direction){
     int startIdx = buildings.size() - 1;
     int step = -1;
 
+    if (direction == "EAST"){
+        startIdx = 0;
+        step = 1;
+    }
+
+    int idx = startIdx;
+    while ( idx >= 0 && < buildings.size()){
+        int bulidingHeight = buildings[idx];
+    }
 }

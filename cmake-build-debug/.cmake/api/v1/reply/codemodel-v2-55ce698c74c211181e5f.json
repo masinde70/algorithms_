@@ -6,7 +6,6 @@
 			[
 				{
 					"build" : ".",
-					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.19"
@@ -39,7 +38,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "Prepare::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Prepare-Debug-c5fbd4a8c4a6444f8ae9.json",
+					"jsonFile" : "target-Prepare-Debug-b22762582b7a34941a97.json",
 					"name" : "Prepare",
 					"projectIndex" : 0
 				}
@@ -55,6 +54,6 @@
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 4
+		"minor" : 2
 	}
 }

@@ -17,7 +17,7 @@ vector<int> sunsetViews(vector<int> buildings, string direction){
     }
 
     int idx = startIdx;
-    while ( idx >= 0 && < buildings.size()){
+    while ( idx >= 0 && idx < buildings.size()){
         int bulidingHeight = buildings[idx];
         while (candidateBuildings.size() > 0 &&
                 buildings[candidateBuildings[candidateBuildings.size() - 1]] <= bulidingHeight){

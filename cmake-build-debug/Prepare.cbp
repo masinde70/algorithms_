@@ -17,6 +17,26 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/masinde/CLionProjects/Prepare/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/masinde/CLionProjects/Prepare/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/masinde/CLionProjects/Prepare/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/masinde/CLionProjects/Prepare/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/masinde/CLionProjects/Prepare/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/masinde/CLionProjects/Prepare/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/masinde/CLionProjects/Prepare/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/masinde/CLionProjects/Prepare/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/masinde/CLionProjects/Prepare/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/masinde/CLionProjects/Prepare/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/masinde/CLionProjects/Prepare/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="Prepare">
 				<Option output="/Users/masinde/CLionProjects/Prepare/cmake-build-debug/Prepare" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/masinde/CLionProjects/Prepare/cmake-build-debug"/>
@@ -59,26 +79,6 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/masinde/CLionProjects/Prepare/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="/Users/masinde/CLionProjects/Prepare/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/masinde/CLionProjects/Prepare/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/masinde/CLionProjects/Prepare/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/masinde/CLionProjects/Prepare/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/masinde/CLionProjects/Prepare/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="rebuild_cache">
-				<Option working_dir="/Users/masinde/CLionProjects/Prepare/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/masinde/CLionProjects/Prepare/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/masinde/CLionProjects/Prepare/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/masinde/CLionProjects/Prepare/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/masinde/CLionProjects/Prepare/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 		</Build>
 		<Unit filename="/Users/masinde/CLionProjects/Prepare/AlgoExpert/Binaries.cpp">
 			<Option target="Prepare"/>
@@ -89,7 +89,19 @@
 		<Unit filename="/Users/masinde/CLionProjects/Prepare/AlgoExpert/BinaryTree.h">
 			<Option target="Prepare"/>
 		</Unit>
+		<Unit filename="/Users/masinde/CLionProjects/Prepare/AlgoExpert/balancedBrackets.cpp">
+			<Option target="Prepare"/>
+		</Unit>
+		<Unit filename="/Users/masinde/CLionProjects/Prepare/AlgoExpert/balancedBrackets.h">
+			<Option target="Prepare"/>
+		</Unit>
+		<Unit filename="/Users/masinde/CLionProjects/Prepare/AlgoExpert/balanced_brackets.cpp">
+			<Option target="Prepare"/>
+		</Unit>
 		<Unit filename="/Users/masinde/CLionProjects/Prepare/AlgoExpert/interval_map.cpp">
+			<Option target="Prepare"/>
+		</Unit>
+		<Unit filename="/Users/masinde/CLionProjects/Prepare/AlgoExpert/staack.cpp">
 			<Option target="Prepare"/>
 		</Unit>
 		<Unit filename="/Users/masinde/CLionProjects/Prepare/AlgoExpert/stack_using_two_queues.cpp">

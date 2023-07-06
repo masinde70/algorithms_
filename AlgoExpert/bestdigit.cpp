@@ -25,5 +25,7 @@ string bestDigits(string number, int numDigits){
         bestDigitString += stack.top();
         stack.pop();
     }
-    reverse(bestDigitString)
+    reverse(bestDigitString.begin(), bestDigitString.end());
+
+    return bestDigitString;
 }

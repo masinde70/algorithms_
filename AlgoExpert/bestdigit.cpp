@@ -1,4 +1,6 @@
 #include<stack>
+#include <algorithm>
+
 
 using namespace std;
 
@@ -13,4 +15,15 @@ string bestDigits(string number, int numDigits){
         }
         stack.push(character);
     }
+    while (numDigits > 0) {
+        numDigits--;
+        stack.pop();
+    }
+    // build final string from stack
+    string bestDigitString = "";
+    while (!stack.empty()) {
+        bestDigitString += stack.top();
+        stack.pop();
+    }
+    reverse(bestDigitString)
 }

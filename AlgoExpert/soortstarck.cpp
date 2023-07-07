@@ -29,5 +29,14 @@ vector<int> sortStack(vector<int> &stack){
 }
 
 void insertInSortedStackOrder(vector<int> &stack, int value){
-    if ()
+    if (stack.size() == 0 || stack.back() <= value ) {
+        stack.push_back(value);
+        return;
+    }
+    int top = stack.back();
+    stack.pop_back();
+
+    insertInSortedStackOrder(stack, value);
+
+    stack.push_back(top);
 }

@@ -23,4 +23,11 @@ vector<int> sortStack(vector<int> &stack){
 
     sortStack(stack);
 
+    insertInSortedStackOrder(stack, top);
+
+    return stack;
+}
+
+void insertInSortedStackOrder(vector<int> &stack, int value){
+    if ()
 }

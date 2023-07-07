@@ -12,3 +12,15 @@
 using namespace std;
 
 void insertInSortedStackOrder(vector<int> &stack, int value);
+
+// O(n^2) time | O(n) space - where n is the length of the stack
+vector<int> sortStack(vector<int> &stack){
+    if (stack.size() == 0) {
+        return stack;
+    }
+    int top = stack.back();
+    stack.pop_back();
+
+    sortStack(stack);
+
+}

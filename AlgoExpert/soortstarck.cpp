@@ -6,3 +6,9 @@
  * 2. Push elements to the top of the stack by appending elements to the end of the array using the built-in .append()
  * 3. Peek at the element on the top of the stack by accessing the last element in the array.
  * */
+
+#include <vector>
+
+using namespace std;
+
+void insertInSortedStackOrder(vector<int> &stack, int value);

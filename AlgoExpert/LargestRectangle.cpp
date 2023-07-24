@@ -24,3 +24,13 @@
 using namespace std;
 
 
+// O(n) time | O(n) space where n is the number of buildings
+
+int largestRectangleUnderSkyline(vector<int> buildings){
+    vector<int> stack;
+
+    int areamax = 0;
+
+    vector<int> extendeedBuildings(buildings);
+    extendeedBuildings.push_back(0);
+}

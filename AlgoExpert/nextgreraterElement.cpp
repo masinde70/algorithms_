@@ -1,5 +1,8 @@
 /*Write a function that takes in an array of integers and returns a new array containing, at each index, the next element
- * in the input array that's greater than the element
+ * in the input array that's greater than the element at the index in the input array
+ *
+ * In other words, your function should return a new array where outputArray[i] is the next element in the input that's
+ * greater than the inputArray[i]
  * */
 
 

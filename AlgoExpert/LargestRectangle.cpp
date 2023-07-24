@@ -10,6 +10,17 @@
  * For example, given buildings = [2, 1, 2], the area of the largest rectangle that can be created is 3, using all
  * three buildings.  Since the minimum height of the three buildings is 1, you can create a rectangle that has height
  * of 1 and width of 3 (the number of buildings). You could also create rectangles of area of 2 by using only
- * the first building or the last building, but these are clearly wouldn't be the largest rectangles.
+ * the first building or the last building, but these are clearly wouldn't be the largest rectangles.Similarly, you could create
+ * rectangles of area 2 by using the first and second building.
+ *
+ * To clarify, the width of created rectangle is the number of buildings used to create the rectangle, its height is the
+ * height of the smallest building used to create it
+ *
+ * No that if no rectangles can be created, your function should return 0
  * */
+
+#include <vector>
+#include <algorithm>
+using namespace std;
+
 

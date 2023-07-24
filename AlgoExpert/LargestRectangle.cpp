@@ -33,4 +33,18 @@ int largestRectangleUnderSkyline(vector<int> buildings){
 
     vector<int> extendeedBuildings(buildings);
     extendeedBuildings.push_back(0);
+
+    for (int index = 0; index < extendeedBuildings.size(); ++index) {
+        int height = extendeedBuildings[index];
+        while (stack.size() != 0 && extendeedBuildings[stack[stack.size() - 1]] >= height){
+            int pillarheight = extendeedBuildings[stack[stack.size() - 1]];
+            stack.pop_back();
+            int width = stack.size() == 0
+                    ? index
+                    : index - stack[stack.size() - 1] - 1;
+            areamax = max(width * pillarheight, areamax);
+        }
+        stack.push_back(index);
+    }
+    return areamax;
 }

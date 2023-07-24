@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Prepare.dir/AlgoExpert/Binaries.cpp.o"
   "CMakeFiles/Prepare.dir/AlgoExpert/BinaryTree.cpp.o"
+  "CMakeFiles/Prepare.dir/AlgoExpert/LargestRectangle.cpp.o"
   "CMakeFiles/Prepare.dir/AlgoExpert/balancedBrackets.cpp.o"
   "CMakeFiles/Prepare.dir/AlgoExpert/balanced_brackets.cpp.o"
   "CMakeFiles/Prepare.dir/AlgoExpert/interval_map.cpp.o"

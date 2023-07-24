@@ -89,6 +89,9 @@
 		<Unit filename="/Users/masinde/CLionProjects/Prepare/AlgoExpert/BinaryTree.h">
 			<Option target="Prepare"/>
 		</Unit>
+		<Unit filename="/Users/masinde/CLionProjects/Prepare/AlgoExpert/LargestRectangle.cpp">
+			<Option target="Prepare"/>
+		</Unit>
 		<Unit filename="/Users/masinde/CLionProjects/Prepare/AlgoExpert/balancedBrackets.cpp">
 			<Option target="Prepare"/>
 		</Unit>
